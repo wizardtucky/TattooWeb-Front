@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: system-ui;
+}
+
+@layer components {
+  .outlined-button {
+    font-size: 14px;
+    font-weight: 500;
+    @apply border border-solid border-gray-400 rounded-8 h-40 px-8 text-purple-800;
+  }
+}
